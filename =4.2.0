@@ -1,0 +1,34 @@
+Collecting nbformat
+  Obtaining dependency information for nbformat from https://files.pythonhosted.org/packages/f4/e7/ef30a90b70eba39e675689b9eaaa92530a71d7435ab8f9cae520814e0caf/nbformat-5.9.2-py3-none-any.whl.metadata
+  Downloading nbformat-5.9.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting fastjsonschema (from nbformat)
+  Obtaining dependency information for fastjsonschema from https://files.pythonhosted.org/packages/63/e9/d3dca06ea6b8e58e65716973bc7d9bee9bc39ce233595aa04d04e89a1089/fastjsonschema-2.19.0-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.19.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Obtaining dependency information for jsonschema>=2.6 from https://files.pythonhosted.org/packages/0f/ed/0058234d8dd2b1fc6beeea8eab945191a05e9d391a63202f49fe23327586/jsonschema-4.20.0-py3-none-any.whl.metadata
+  Downloading jsonschema-4.20.0-py3-none-any.whl.metadata (8.1 kB)
+Requirement already satisfied: jupyter-core in c:\users\anuj\appdata\roaming\python\python311\site-packages (from nbformat) (5.5.0)
+Requirement already satisfied: traitlets>=5.1 in c:\users\anuj\appdata\local\programs\python\python311\lib\site-packages (from nbformat) (5.14.0)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\anuj\appdata\local\programs\python\python311\lib\site-packages (from jsonschema>=2.6->nbformat) (23.1.0)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for jsonschema-specifications>=2023.03.6 from https://files.pythonhosted.org/packages/d7/48/b62ccba8f4ac91817d6a11b340e63806175dafb10234a8cf7140bd389da5/jsonschema_specifications-2023.11.2-py3-none-any.whl.metadata
+  Downloading jsonschema_specifications-2023.11.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for referencing>=0.28.4 from https://files.pythonhosted.org/packages/b4/11/d121780c173336c9bc3a5b8240ed31f518957cc22f6311c76259cb0fcf32/referencing-0.32.0-py3-none-any.whl.metadata
+  Downloading referencing-0.32.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for rpds-py>=0.7.1 from https://files.pythonhosted.org/packages/96/fc/abf533130478cb02f2e48092c74fddc79524bb215484bd6634d6b772b46c/rpds_py-0.13.2-cp311-none-win_amd64.whl.metadata
+  Downloading rpds_py-0.13.2-cp311-none-win_amd64.whl.metadata (4.0 kB)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\anuj\appdata\roaming\python\python311\site-packages (from jupyter-core->nbformat) (4.1.0)
+Requirement already satisfied: pywin32>=300 in c:\users\anuj\appdata\local\programs\python\python311\lib\site-packages (from jupyter-core->nbformat) (306)
+Downloading nbformat-5.9.2-py3-none-any.whl (77 kB)
+   ---------------------------------------- 77.6/77.6 kB 2.1 MB/s eta 0:00:00
+Downloading jsonschema-4.20.0-py3-none-any.whl (84 kB)
+   ---------------------------------------- 84.7/84.7 kB 4.7 MB/s eta 0:00:00
+Downloading fastjsonschema-2.19.0-py3-none-any.whl (23 kB)
+Downloading jsonschema_specifications-2023.11.2-py3-none-any.whl (17 kB)
+Downloading referencing-0.32.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.13.2-cp311-none-win_amd64.whl (188 kB)
+   --------------------------------------- 188.7/188.7 kB 11.2 MB/s eta 0:00:00
+Installing collected packages: fastjsonschema, rpds-py, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed fastjsonschema-2.19.0 jsonschema-4.20.0 jsonschema-specifications-2023.11.2 nbformat-5.9.2 referencing-0.32.0 rpds-py-0.13.2
